@@ -1,0 +1,78 @@
+/* google font mulish */
+* {
+    font-family: Mulish;
+
+}
+
+/* common styles utilities */
+body {
+    max-width: 1770px;
+
+
+}
+
+/*---------------- navigaton-styles--------------- */
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+}
+
+.nav-title {
+    display: flex;
+}
+
+.nav-title img{
+    width: 48px;
+    height: 60px;
+    margin-top: 20px;
+    
+}
+
+.hero-name {
+    margin-left: 5px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.travel {}
+
+.nav-items {
+    display: flex;
+
+}
+
+.nav-items,
+li>a {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 35px;
+    font-size: 18px;
+    color: #424247;
+    font-weight: 400;
+
+
+}
+
+.home {
+    color: #FF5400;
+
+}
+
+
+
+
+
+/*-----------------------------------------------
+ mobile device responsive or media query/ brackpoint
+ -------------------------------------------------- */
+@media screen and (max-width:576px) {
+    
+    
+}
